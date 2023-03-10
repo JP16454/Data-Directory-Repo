@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Navitur1ModelStoreContainer" CdmEntityContainer="Navitur1Entities">
+    <EntitySetMapping Name="CatAgentes">
+      <EntityTypeMapping TypeName="Navitur1Model.CatAgentes">
+        <MappingFragment StoreEntitySet="CatAgentes">
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="IdAgente" ColumnName="IdAgente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="IdDireccion" ColumnName="IdDireccion" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatDireccion">
+      <EntityTypeMapping TypeName="Navitur1Model.CatDireccion">
+        <MappingFragment StoreEntitySet="CatDireccion">
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="IdDireccion" ColumnName="IdDireccion" />
+          <ScalarProperty Name="Calle" ColumnName="Calle" />
+          <ScalarProperty Name="NumInterior" ColumnName="NumInterior" />
+          <ScalarProperty Name="NumExterior" ColumnName="NumExterior" />
+          <ScalarProperty Name="Colonia" ColumnName="Colonia" />
+          <ScalarProperty Name="CodigoPostal" ColumnName="CodigoPostal" />
+          <ScalarProperty Name="IdMunicipio" ColumnName="IdMunicipio" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatEstado">
+      <EntityTypeMapping TypeName="Navitur1Model.CatEstado">
+        <MappingFragment StoreEntitySet="CatEstado">
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="NombreEstado" ColumnName="NombreEstado" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatMunicipio">
+      <EntityTypeMapping TypeName="Navitur1Model.CatMunicipio">
+        <MappingFragment StoreEntitySet="CatMunicipio">
+          <ScalarProperty Name="IdMunicipio" ColumnName="IdMunicipio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatPais">
+      <EntityTypeMapping TypeName="Navitur1Model.CatPais">
+        <MappingFragment StoreEntitySet="CatPais">
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="NombrePais" ColumnName="NombrePais" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FormaDePago">
+      <EntityTypeMapping TypeName="Navitur1Model.FormaDePago">
+        <MappingFragment StoreEntitySet="FormaDePago">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="InformacionExtra" ColumnName="InformacionExtra" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu">
+      <EntityTypeMapping TypeName="Navitur1Model.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="NombreMenu" ColumnName="NombreMenu" />
+          <ScalarProperty Name="IdentificadorMenu" ColumnName="IdentificadorMenu" />
+          <ScalarProperty Name="IdentificadorPadre" ColumnName="IdentificadorPadre" />
+          <ScalarProperty Name="NombreFormulario" ColumnName="NombreFormulario" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuxUsr">
+      <EntityTypeMapping TypeName="Navitur1Model.MenuxUsr">
+        <MappingFragment StoreEntitySet="MenuxUsr">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="NivelUsuario" ColumnName="NivelUsuario" />
+          <ScalarProperty Name="IdentificadorMenu" ColumnName="IdentificadorMenu" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Privilegio">
+      <EntityTypeMapping TypeName="Navitur1Model.Privilegio">
+        <MappingFragment StoreEntitySet="Privilegio">
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="Navitur1Model.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="NivelUsuario" ColumnName="NivelUsuario" />
+          <ScalarProperty Name="Usuario1" ColumnName="Usuario" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="AutorizaComision" ColumnName="AutorizaComision" />
+          <ScalarProperty Name="AutorizaTransmitido" ColumnName="AutorizaTransmitido" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BitacoraEventos">
+      <EntityTypeMapping TypeName="Navitur1Model.BitacoraEventos">
+        <MappingFragment StoreEntitySet="BitacoraEventos">
+          <ScalarProperty Name="IdBitacora" ColumnName="IdBitacora" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="IdReservacion" ColumnName="IdReservacion" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

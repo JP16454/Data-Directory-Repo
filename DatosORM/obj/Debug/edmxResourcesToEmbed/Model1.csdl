@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Navitur1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CatAgentes">
+    <Key>
+      <PropertyRef Name="IdAgente" />
+    </Key>
+    <Property Name="IdAgente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="ApellidoPaterno" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="ApellidoMaterno" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="IdDireccion" Type="Int32" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="CatDireccion" Relationship="Self.FK__CatAgente__IdDir__47DBAE45" FromRole="CatAgentes" ToRole="CatDireccion" />
+    <Property Name="Telefono" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Celular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatDireccion">
+    <Key>
+      <PropertyRef Name="IdDireccion" />
+    </Key>
+    <Property Name="IdDireccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Calle" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NumInterior" Type="Int32" />
+    <Property Name="NumExterior" Type="Int32" />
+    <Property Name="Colonia" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoPostal" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="IdMunicipio" Type="Int32" />
+    <Property Name="IdEstado" Type="Int32" />
+    <Property Name="IdPais" Type="Int32" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="CatAgentes" Relationship="Self.FK__CatAgente__IdDir__47DBAE45" FromRole="CatDireccion" ToRole="CatAgentes" />
+    <NavigationProperty Name="CatMunicipio" Relationship="Self.FK__CatDirecc__IdMun__440B1D61" FromRole="CatDireccion" ToRole="CatMunicipio" />
+    <NavigationProperty Name="CatEstado" Relationship="Navitur1Model.FK__CatDirecc__IdEst__3D2915A8" FromRole="CatDireccion" ToRole="CatEstado" />
+    <NavigationProperty Name="CatPais" Relationship="Navitur1Model.FK__CatDirecc__IdPai__3E1D39E1" FromRole="CatDireccion" ToRole="CatPais" />
+  </EntityType>
+  <EntityType Name="CatEstado">
+    <Key>
+      <PropertyRef Name="IdEstado" />
+    </Key>
+    <Property Name="IdEstado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreEstado" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Ciudad" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdPais" Type="Int32" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CatPais" Relationship="Self.FK__CatEstado__IdPai__35BCFE0A" FromRole="CatEstado" ToRole="CatPais" />
+    <NavigationProperty Name="CatMunicipio" Relationship="Self.FK__CatMunici__IdEst__398D8EEE" FromRole="CatEstado" ToRole="CatMunicipio" />
+    <NavigationProperty Name="CatDireccion" Relationship="Navitur1Model.FK__CatDirecc__IdEst__3D2915A8" FromRole="CatEstado" ToRole="CatDireccion" />
+  </EntityType>
+  <EntityType Name="CatMunicipio">
+    <Key>
+      <PropertyRef Name="IdMunicipio" />
+    </Key>
+    <Property Name="IdMunicipio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdEstado" Type="Int32" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="CatDireccion" Relationship="Self.FK__CatDirecc__IdMun__440B1D61" FromRole="CatMunicipio" ToRole="CatDireccion" />
+    <NavigationProperty Name="CatEstado" Relationship="Self.FK__CatMunici__IdEst__398D8EEE" FromRole="CatMunicipio" ToRole="CatEstado" />
+  </EntityType>
+  <EntityType Name="CatPais">
+    <Key>
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Name="IdPais" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombrePais" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="CatEstado" Relationship="Self.FK__CatEstado__IdPai__35BCFE0A" FromRole="CatPais" ToRole="CatEstado" />
+    <NavigationProperty Name="CatDireccion" Relationship="Navitur1Model.FK__CatDirecc__IdPai__3E1D39E1" FromRole="CatPais" ToRole="CatDireccion" />
+  </EntityType>
+  <EntityType Name="FormaDePago">
+    <Key>
+      <PropertyRef Name="IdFormaPago" />
+    </Key>
+    <Property Name="IdFormaPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FormaPago" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="InformacionExtra" Type="Int32" />
+    <Property Name="Estatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="IdentificadorMenu" />
+    </Key>
+    <Property Name="NombreMenu" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdentificadorMenu" Type="Int32" Nullable="false" />
+    <Property Name="IdentificadorPadre" Type="Int32" />
+    <Property Name="NombreFormulario" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="MenuxUsr" Relationship="Self.FK__MenuxUsr__Identi__1A14E395" FromRole="Menu" ToRole="MenuxUsr" />
+  </EntityType>
+  <EntityType Name="MenuxUsr">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+      <PropertyRef Name="IdentificadorMenu" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="NivelUsuario" Type="Int32" />
+    <Property Name="IdentificadorMenu" Type="Int32" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" />
+    <NavigationProperty Name="Menu" Relationship="Self.FK__MenuxUsr__Identi__1A14E395" FromRole="MenuxUsr" ToRole="Menu" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__MenuxUsr__IdUsua__1920BF5C" FromRole="MenuxUsr" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Privilegio">
+    <Key>
+      <PropertyRef Name="Nivel" />
+    </Key>
+    <Property Name="Nivel" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__Usuario__NivelUs__1367E606" FromRole="Privilegio" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NivelUsuario" Type="Int32" Nullable="false" />
+    <Property Name="Usuario1" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AutorizaComision" Type="Int32" Nullable="false" />
+    <Property Name="AutorizaTransmitido" Type="Int32" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MenuxUsr" Relationship="Self.FK__MenuxUsr__IdUsua__1920BF5C" FromRole="Usuario" ToRole="MenuxUsr" />
+    <NavigationProperty Name="Privilegio" Relationship="Self.FK__Usuario__NivelUs__1367E606" FromRole="Usuario" ToRole="Privilegio" />
+  </EntityType>
+  <EntityType Name="BitacoraEventos">
+    <Key>
+      <PropertyRef Name="IdBitacora" />
+      <PropertyRef Name="IdUsuario" />
+      <PropertyRef Name="Descripcion" />
+      <PropertyRef Name="Fecha" />
+      <PropertyRef Name="Hora" />
+      <PropertyRef Name="IdReservacion" />
+      <PropertyRef Name="Estatus" />
+    </Key>
+    <Property Name="IdBitacora" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Hora" Type="Int32" Nullable="false" />
+    <Property Name="IdReservacion" Type="Int32" Nullable="false" />
+    <Property Name="Estatus" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__CatAgente__IdDir__47DBAE45">
+    <End Role="CatDireccion" Type="Self.CatDireccion" Multiplicity="0..1" />
+    <End Role="CatAgentes" Type="Self.CatAgentes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatDireccion">
+        <PropertyRef Name="IdDireccion" />
+      </Principal>
+      <Dependent Role="CatAgentes">
+        <PropertyRef Name="IdDireccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatDirecc__IdMun__440B1D61">
+    <End Role="CatMunicipio" Type="Self.CatMunicipio" Multiplicity="0..1" />
+    <End Role="CatDireccion" Type="Self.CatDireccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatMunicipio">
+        <PropertyRef Name="IdMunicipio" />
+      </Principal>
+      <Dependent Role="CatDireccion">
+        <PropertyRef Name="IdMunicipio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatEstado__IdPai__35BCFE0A">
+    <End Role="CatPais" Type="Self.CatPais" Multiplicity="1" />
+    <End Role="CatEstado" Type="Self.CatEstado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="CatEstado">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatMunici__IdEst__398D8EEE">
+    <End Role="CatEstado" Type="Self.CatEstado" Multiplicity="1" />
+    <End Role="CatMunicipio" Type="Self.CatMunicipio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatEstado">
+        <PropertyRef Name="IdEstado" />
+      </Principal>
+      <Dependent Role="CatMunicipio">
+        <PropertyRef Name="IdEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MenuxUsr__Identi__1A14E395">
+    <End Role="Menu" Type="Self.Menu" Multiplicity="1" />
+    <End Role="MenuxUsr" Type="Self.MenuxUsr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="IdentificadorMenu" />
+      </Principal>
+      <Dependent Role="MenuxUsr">
+        <PropertyRef Name="IdentificadorMenu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MenuxUsr__IdUsua__1920BF5C">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="MenuxUsr" Type="Self.MenuxUsr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="MenuxUsr">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuario__NivelUs__1367E606">
+    <End Role="Privilegio" Type="Self.Privilegio" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Privilegio">
+        <PropertyRef Name="Nivel" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="NivelUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Navitur1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CatAgentes" EntityType="Self.CatAgentes" />
+    <EntitySet Name="CatDireccion" EntityType="Self.CatDireccion" />
+    <EntitySet Name="CatEstado" EntityType="Self.CatEstado" />
+    <EntitySet Name="CatMunicipio" EntityType="Self.CatMunicipio" />
+    <EntitySet Name="CatPais" EntityType="Self.CatPais" />
+    <EntitySet Name="FormaDePago" EntityType="Self.FormaDePago" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" />
+    <EntitySet Name="MenuxUsr" EntityType="Self.MenuxUsr" />
+    <EntitySet Name="Privilegio" EntityType="Self.Privilegio" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="BitacoraEventos" EntityType="Self.BitacoraEventos" />
+    <AssociationSet Name="FK__CatAgente__IdDir__47DBAE45" Association="Self.FK__CatAgente__IdDir__47DBAE45">
+      <End Role="CatDireccion" EntitySet="CatDireccion" />
+      <End Role="CatAgentes" EntitySet="CatAgentes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatDirecc__IdMun__440B1D61" Association="Self.FK__CatDirecc__IdMun__440B1D61">
+      <End Role="CatMunicipio" EntitySet="CatMunicipio" />
+      <End Role="CatDireccion" EntitySet="CatDireccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatEstado__IdPai__35BCFE0A" Association="Self.FK__CatEstado__IdPai__35BCFE0A">
+      <End Role="CatPais" EntitySet="CatPais" />
+      <End Role="CatEstado" EntitySet="CatEstado" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatMunici__IdEst__398D8EEE" Association="Self.FK__CatMunici__IdEst__398D8EEE">
+      <End Role="CatEstado" EntitySet="CatEstado" />
+      <End Role="CatMunicipio" EntitySet="CatMunicipio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MenuxUsr__Identi__1A14E395" Association="Self.FK__MenuxUsr__Identi__1A14E395">
+      <End Role="Menu" EntitySet="Menu" />
+      <End Role="MenuxUsr" EntitySet="MenuxUsr" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MenuxUsr__IdUsua__1920BF5C" Association="Self.FK__MenuxUsr__IdUsua__1920BF5C">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="MenuxUsr" EntitySet="MenuxUsr" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuario__NivelUs__1367E606" Association="Self.FK__Usuario__NivelUs__1367E606">
+      <End Role="Privilegio" EntitySet="Privilegio" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatDirecc__IdEst__3D2915A8" Association="Navitur1Model.FK__CatDirecc__IdEst__3D2915A8">
+      <End Role="CatEstado" EntitySet="CatEstado" />
+      <End Role="CatDireccion" EntitySet="CatDireccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatDirecc__IdPai__3E1D39E1" Association="Navitur1Model.FK__CatDirecc__IdPai__3E1D39E1">
+      <End Role="CatPais" EntitySet="CatPais" />
+      <End Role="CatDireccion" EntitySet="CatDireccion" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK__CatDirecc__IdEst__3D2915A8">
+    <End Type="Navitur1Model.CatEstado" Role="CatEstado" Multiplicity="0..1" />
+    <End Type="Navitur1Model.CatDireccion" Role="CatDireccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatEstado">
+        <PropertyRef Name="IdEstado" />
+      </Principal>
+      <Dependent Role="CatDireccion">
+        <PropertyRef Name="IdEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatDirecc__IdPai__3E1D39E1">
+    <End Type="Navitur1Model.CatPais" Role="CatPais" Multiplicity="0..1" />
+    <End Type="Navitur1Model.CatDireccion" Role="CatDireccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatPais">
+        <PropertyRef Name="IdPais" />
+      </Principal>
+      <Dependent Role="CatDireccion">
+        <PropertyRef Name="IdPais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

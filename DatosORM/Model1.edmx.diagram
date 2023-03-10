@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f1d7d25ccf04f008e4c06b9e08c6c2e" Name="Diagram1">
+        <EntityTypeShape EntityType="Navitur1Model.CatAgentes" Width="1.5" PointX="14.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.CatDireccion" Width="1.5" PointX="12.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.CatEstado" Width="1.5" PointX="8" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.CatMunicipio" Width="1.5" PointX="10.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.CatPais" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.FormaDePago" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.Menu" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.MenuxUsr" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.Privilegio" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.Usuario" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Navitur1Model.BitacoraEventos" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="Navitur1Model.FK__CatAgente__IdDir__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__CatDirecc__IdMun__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__CatEstado__IdPai__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__CatMunici__IdEst__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__MenuxUsr__Identi__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__MenuxUsr__IdUsua__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__Usuario__NivelUs__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="Navitur1Model.FK__CatDirecc__IdEst__3D2915A8" />
+        <AssociationConnector Association="Navitur1Model.FK__CatDirecc__IdPai__3E1D39E1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

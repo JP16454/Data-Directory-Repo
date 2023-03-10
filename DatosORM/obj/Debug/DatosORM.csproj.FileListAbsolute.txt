@@ -1,0 +1,44 @@
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\DatosORM.dll.config
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\DatosORM.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\DatosORM.pdb
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\EntityFramework.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\EntityFramework.xml
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\obj\Debug\DatosORM.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\obj\Debug\DatosORM.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\DatosORM\obj\Debug\DatosORM.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\DatosORM.dll.config
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\DatosORM.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\DatosORM.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\EntityFramework.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\EntityFramework.xml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\obj\Debug\DatosORM.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\obj\Debug\DatosORM.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\DatosORM\obj\Debug\DatosORM.pdb
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\DatosORM.dll.config
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\DatosORM.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\DatosORM.pdb
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\EntityFramework.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\EntityFramework.xml
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\obj\Debug\DatosORM.csprojAssemblyReference.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\obj\Debug\DatosORM.csproj.CoreCompileInputs.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\obj\Debug\DatosORM.csproj.CopyComplete
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\obj\Debug\DatosORM.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\DatosORM\obj\Debug\DatosORM.pdb
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\DatosORM.dll.config
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\DatosORM.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\DatosORM.pdb
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\EntityFramework.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\EntityFramework.xml
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\obj\Debug\DatosORM.csprojAssemblyReference.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\obj\Debug\DatosORM.csproj.CoreCompileInputs.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\obj\Debug\DatosORM.csproj.CopyComplete
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\obj\Debug\DatosORM.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\DatosORM\obj\Debug\DatosORM.pdb

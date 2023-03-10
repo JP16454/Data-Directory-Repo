@@ -1,0 +1,24 @@
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Entidades\bin\Debug\Entidades.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Entidades\bin\Debug\Entidades.pdb
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Entidades\obj\Debug\Entidades.dll
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Entidades\obj\Debug\Entidades.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Entidades\bin\Debug\Entidades.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Entidades\bin\Debug\Entidades.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Entidades\obj\Debug\Entidades.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Entidades\obj\Debug\Entidades.pdb
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\bin\Debug\Entidades.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\bin\Debug\Entidades.pdb
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\obj\Debug\Entidades.dll
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Entidades\obj\Debug\Entidades.pdb
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\bin\Debug\Entidades.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\bin\Debug\Entidades.pdb
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\obj\Debug\Entidades.dll
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Entidades\obj\Debug\Entidades.pdb

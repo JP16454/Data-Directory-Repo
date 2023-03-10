@@ -1,0 +1,173 @@
+﻿<Window x:Class="Navitur.Views.Catalogos.CatalogoAgentesDetalle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navitur.Views.Catalogos"
+        mc:Ignorable="d"
+        Title="" 
+        Height="500" 
+        Width="800"
+        >
+
+    <Window.Resources>
+        <Style  x:Key="txtTituloGrd" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="#0369A6"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+            <Setter Property="FontSize" Value="8"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid ShowGridLines="True"
+          Background="RoyalBlue"
+          Margin="2,2,2,2"
+          >
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="790"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="350"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" 
+              ShowGridLines="False" 
+              Background="Blue"
+              >
+
+            <Label x:Name="lblTitulo" 
+                    Content="CATALOGO AGENTES" 
+                    Style="{StaticResource FormatoLabel}" 
+                    Grid.Row="0"
+                    Grid.Column="0" 
+                    Width="180"
+                    Foreground="White"
+                    >
+            </Label>
+
+        </Grid>
+
+        <Grid Grid.Row="2"
+              ShowGridLines="True"
+              Background="Yellow"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center" 
+              Margin="14,12,14.8,34" 
+              >
+
+            <GroupBox Width="760"
+                      Height="300" 
+                      Margin="1,2,1,2"
+                      Background="Lavender"
+                      >
+
+
+                <DataGrid ItemsSource="{Binding Path=ListaCatAgentes}"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          ColumnWidth="Auto"
+                          HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto"
+                          SelectionMode="Extended"
+                          
+                          >
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Binding="{Binding Path=IdAgente, StringFormat=N0}"                                             
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Id Agente"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Nombre}"             
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Nombre"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=ApellidoPaterno}"   
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Apellido Paterno"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=ApellidoMaterno}"    
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Apellido Materno"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Calle}"              
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Calle"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=NumInterior, StringFormat=N0}"  
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Num Interior"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=NumExterior, StringFormat=N0}"  
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Num Exterior"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Colonia}"            
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Colonia"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=CodigoPostal}"       
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Codigo Postal"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Municipio}"  
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Municipio"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Estado}"        
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Estado"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Pais}"        
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Pais"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Telefono}"       
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Telefono"/>
+
+                        <DataGridTextColumn Binding="{Binding Path=Celular}"    
+                                            Width="Auto"
+                                            HeaderStyle="{StaticResource txtTituloGrd}" 
+                                            Header="Celular"/>
+
+
+
+                    </DataGrid.Columns>
+
+                </DataGrid>
+
+
+
+
+
+            </GroupBox>
+
+        </Grid>
+
+
+
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,77 @@
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Navitur.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\AdministrarUsuarios\AdminUsuarios.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatAgencias.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentes.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentesDetalle.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatProveedores.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Main\MainWindow.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Views\Main\Principal.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\App.g.cs
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.cache
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.lref
+D:\Personal Julio Peña\2019-10-11 Sistema Navitur\AppNavitur\Navitur\bin\Debug\Navitur.exe.config
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Navitur.exe.config
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.csprojResolveAssemblyReference.cache
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\AdministrarUsuarios\AdminUsuarios.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatAgencias.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentes.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentesDetalle.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatProveedores.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Main\MainWindow.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Main\Principal.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\App.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.cache
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.lref
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Navitur.exe
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Navitur.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Datos.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\DatosORM.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Entidades.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Negocio.dll
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\DatosORM.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Datos.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Entidades.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\bin\Debug\Negocio.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\App.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\AdministrarUsuarios\AdminUsuarios.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatAgencias.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentes.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentesDetalle.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatProveedores.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Main\MainWindow.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Main\Principal.baml
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.g.resources
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.Properties.Resources.resources
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.csproj.GenerateResource.Cache
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.exe
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Navitur.pdb
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatDireccion.g.cs
+D:\Personal Julio Peña\2. App Desarrollo\Sistema Navitur\2020-01-01 Sistema Navitur WPF\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatDireccion.baml
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Navitur.csprojAssemblyReference.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\AdministrarUsuarios\AdminUsuarios.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatAgencias.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentes.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentesDetalle.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatDireccion.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Catalogos\CatProveedores.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Main\MainWindow.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Views\Main\Principal.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\App.g.cs
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.cache
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Navitur_MarkupCompile.lref
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Navitur.exe
+D:\5. 2020-01-01 Sistema Navitur WPF Version 2\AppNavitur\Navitur\obj\Debug\Navitur.pdb
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Navitur.csprojAssemblyReference.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\AdministrarUsuarios\AdminUsuarios.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Catalogos\CatAgencias.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentes.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Catalogos\CatalogoAgentesDetalle.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Catalogos\CatDireccion.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Catalogos\CatProveedores.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Main\MainWindow.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Views\Main\Principal.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\App.g.cs
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Navitur_MarkupCompile.cache
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Navitur_MarkupCompile.lref
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Navitur.exe
+D:\12 Sistema Navitur\4. 2016-03-01 Desarrollo Sistema Navitur\2. Proyecto WPF\2020-09-29 AppNavitur Ver 1.0\Navitur\obj\Debug\Navitur.pdb
